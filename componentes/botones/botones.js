@@ -22,8 +22,7 @@ const Botones = ({
   numUno,
   numDos,
 }) => {
-  const onClick = (relleno) => {
-    console.log("test");
+  const onClick = (relleno) => {    
     if (numeros.includes(relleno)) {
       onClickNumero(relleno);
     } else if (operaciones.includes(relleno)) {

@@ -51,10 +51,8 @@ export default function App() {
       setOperacion("");
     } else if (simbolo === "←") {
       if (num1 && !operacion && !num2) {
-        console.log("borrando num 1");
         setNum1(num1.substring(0, num1.length - 1));
       } else if (num2) {
-        console.log("borrando num 2");
         setNum2(num2.substring(0, num2.length - 1));
       }
     }
