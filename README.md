@@ -1,3 +1,3 @@
 # Calculadora React-Native
 
-![screenshot](./screenshot.jpeg)
+<img src="./screenshot.jpeg" width="300">
